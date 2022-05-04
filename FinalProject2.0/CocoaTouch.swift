@@ -6,8 +6,10 @@
 //
 
 import UIKit
-
-class CocoaTouch: UIViewController {
+import SafariServices
+class CocoaTouch: UIViewController, SFSafariViewControllerDelegate{
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,19 @@ class CocoaTouch: UIViewController {
     }
     
 
+    @IBAction func websiteButton(_ sender: Any)
+    {
+        let unchartedURL = "https://housing.colostate.edu/halls/explore/"
+        let fullURLPath = unchartedURL
+          
+          // TODO: - Stretch #3
+          let myUrl = URL(string: fullURLPath)
+          let svc = SFSafariViewController(url: myUrl!)
+          svc.delegate = self
+          self.present(svc, animated: true, completion: nil)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
