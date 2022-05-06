@@ -14,6 +14,7 @@
 		B099BD0828219617002B6DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B099BD0728219617002B6DF7 /* Assets.xcassets */; };
 		B099BD0B28219617002B6DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B099BD0928219617002B6DF7 /* LaunchScreen.storyboard */; };
 		B099BD132821A1FC002B6DF7 /* CocoaTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B099BD122821A1FC002B6DF7 /* CocoaTouch.swift */; };
+		B099BD1528258C0F002B6DF7 /* SecondButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B099BD1428258C0F002B6DF7 /* SecondButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B099BD0A28219617002B6DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B099BD0C28219617002B6DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B099BD122821A1FC002B6DF7 /* CocoaTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouch.swift; sourceTree = "<group>"; };
+		B099BD1428258C0F002B6DF7 /* SecondButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		B099BCF228219616002B6DF7 = {
 			isa = PBXGroup;
 			children = (
+				B099BD1428258C0F002B6DF7 /* SecondButton.swift */,
 				B099BCFD28219616002B6DF7 /* FinalProject2.0 */,
 				B099BCFC28219616002B6DF7 /* Products */,
 			);
@@ -143,6 +146,7 @@
 				B099BD0328219616002B6DF7 /* ViewController.swift in Sources */,
 				B099BCFF28219616002B6DF7 /* AppDelegate.swift in Sources */,
 				B099BD0128219616002B6DF7 /* SceneDelegate.swift in Sources */,
+				B099BD1528258C0F002B6DF7 /* SecondButton.swift in Sources */,
 				B099BD132821A1FC002B6DF7 /* CocoaTouch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

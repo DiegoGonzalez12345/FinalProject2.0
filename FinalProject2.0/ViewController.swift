@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
@@ -27,7 +28,14 @@ class ViewController: UIViewController {
             imageView.center = view.center
             view.addSubview(imageView)
             self.view.sendSubviewToBack(imageView)
-    }
+        
+        
+    
+}
 
 }
+
+
+
+
 
